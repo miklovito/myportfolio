@@ -413,6 +413,10 @@ body:not(.user-is-tabbing) a:focus {
     font-size: var(--font-size-normal);
     position:relative;
 }
+.header .row {
+	position: relative;
+	z-index: 1;
+}
 .header::after {
     position:absolute;
     top:0;
@@ -424,9 +428,10 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .header__text {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 1;
 }
 
 .header__text p {
