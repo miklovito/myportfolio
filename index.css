@@ -150,13 +150,13 @@ img {
 h1,
 h2,
 h3 {
-    font-family: 'Photograph Signature', sans-serif;
+    font-family: 'Skincake', sans-serif;
     font-weight: 400;
     line-height: var(--line-height-small);
     color: var(--white);
 }
 .heading-primary {
-    font-family: 'Cultural', sans-serif;
+    font-family: 'Photograph Signature', sans-serif;
 }
 
 .heading-primary {
