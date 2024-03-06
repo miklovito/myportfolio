@@ -155,6 +155,12 @@ h3 {
     line-height: var(--line-height-small);
     color: var(--white);
 }
+.work h2, .client h2, .about h2, .contact h2 {
+    font-family: 'Akira Expanded', sans-serif;
+    font-weight: 400;
+    line-height: var(--line-height-small);
+    color: var(--white);
+}
 .heading-primary {
     font-family: 'Photograph Signature', sans-serif;
 }
