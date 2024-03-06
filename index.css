@@ -38,10 +38,10 @@
 }
 
 @font-face {
-    font-family: 'Skincake';
+    font-family: 'Akira Expanded';
     font-style: normal;
     font-weight: 400;
-    src: url('./fonts/Skincake.ttf') format('woff');
+    src: url('./fonts/Akira-Expanded-Demo.ttf') format('woff');
 }
 
 * {
