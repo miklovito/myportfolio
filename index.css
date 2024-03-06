@@ -264,7 +264,7 @@ body:not(.user-is-tabbing) a:focus {
 	font-weight: bold;
 }
 
-.about .btn, .about .contact {
+.about .btn, .contact .btn {
 	color: var(--pink);
 	border: 1px solid var(--pink);
     background:transparent;
