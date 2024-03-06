@@ -156,7 +156,7 @@ h3 {
     color: var(--white);
 }
 .work h2, .client h2, .about h2, .contact h2 {
-    font-family: 'Akira Expanded', sans-serif;
+    font-family: 'Photograph Signature', sans-serif;
     font-weight: 400;
     line-height: var(--line-height-small);
     color: var(--white);
@@ -194,6 +194,8 @@ h2::after {
 h3 {
     font-size: var(--font-size-medium-1);
     margin-bottom: var(--gutter-small);
+    text-transform: uppercase;
+    font-size:24px;
 }
 
 @media(max-width: 500px) {
@@ -260,6 +262,17 @@ body:not(.user-is-tabbing) a:focus {
 	text-transform: uppercase;
 	font-size: 18px;
 	font-weight: bold;
+}
+
+.about .btn, .about .contact {
+	color: var(--pink);
+	border: 1px solid var(--pink);
+    background:transparent;
+}
+.about .btn:hover, .about .contact:hover {
+	color: #181818;
+	border: 1px solid var(--pink);
+    background: var(--pink);
 }
 
 .btn:focus {
@@ -341,19 +354,20 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Back to Top ----- */
 
 .back-to-top {
-    position: fixed;
-    bottom: 4rem;
-    right: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5.5rem;
-    width: 5.5rem;
-    background-color: var(--pink);
-    border-radius: 50%;
-    z-index: 10;
-    visibility: hidden;
-    transition: all .4s;
+	position: fixed;
+	bottom: 4rem;
+	right: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 5.5rem;
+	width: 5.5rem;
+	background-color: transparent;
+	border-radius: 50%;
+	z-index: 10;
+	visibility: hidden;
+	transition: all .4s;
+	border: 2px solid var(--pink);
 }
 
 .back-to-top__image {
@@ -511,7 +525,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__box:not(:last-child) {
-    margin-bottom: 25rem;
+    margin-bottom: 100px;
 }
 
 @media(max-width: 500px) {
