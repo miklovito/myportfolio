@@ -245,13 +245,15 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .btn {
-    position: relative;
-    display: inline-block;
-    padding: 1rem 4.2rem;
-    text-decoration: none;
-    color: inherit;
-    border: 1px solid  var(--pink);
-    font-weight: 400;
+	position: relative;
+	display: inline-block;
+	padding: 1rem 4.2rem;
+	text-decoration: none;
+	color: #181818;
+	border: 1px solid var(--pink);
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
 }
 
 .btn:focus {
@@ -275,6 +277,7 @@ body:not(.user-is-tabbing) a:focus {
 .btn:focus::after {
     right: 0;
     background: var(--pink);
+    color: var(--pink);
 }
 
 .btn--pink {
