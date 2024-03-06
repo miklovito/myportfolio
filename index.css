@@ -207,7 +207,7 @@ p {
 a {
     color: var(--white);
     font-weight: 400;
-    font-family: 'Photograph Signature', sans-serif;
+    font-family: 'Brownland', sans-serif;
     transition: all .2s;
     outline: 2px solid transparent;
 }
@@ -431,8 +431,7 @@ body:not(.user-is-tabbing) a:focus {
     position:relative;
 }
 .header .row {
-	position: relative;
-	z-index: 1;
+	
 }
 .header::after {
     position:absolute;
@@ -454,7 +453,7 @@ body:not(.user-is-tabbing) a:focus {
 .header__text p {
     margin: 1.5rem 0 3.5rem;
     max-width: var(--container-medium-width);
-    font-family: 'Photograph Signature', sans-serif;
+    font-family: 'Brownland', sans-serif;
     font-size: var(--font-size-medium);
 }
 
