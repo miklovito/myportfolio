@@ -30,6 +30,20 @@
     src: url('./fonts/Brownland.ttf') format('woff');
 }
 
+@font-face {
+    font-family: 'Bricyte Howela';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/Bricyte-Howela.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'Skincake';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/Skincake.ttf') format('woff');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -142,7 +156,7 @@ h3 {
     color: var(--white);
 }
 .heading-primary {
-    font-family: 'Custural', sans-serif;
+    font-family: 'Cultural', sans-serif;
 }
 
 .heading-primary {
