@@ -23,6 +23,13 @@
     src: url('./fonts/Photograph-Signature.ttf') format('woff');
 }
 
+@font-face {
+    font-family: 'Brownland';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/Brownland.ttf') format('woff');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -133,6 +140,9 @@ h3 {
     font-weight: 400;
     line-height: var(--line-height-small);
     color: var(--white);
+}
+.heading-primary {
+    font-family: 'Custural', sans-serif;
 }
 
 .heading-primary {
